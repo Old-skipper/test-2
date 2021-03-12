@@ -234,12 +234,13 @@ body {
   grid-row-gap: 8rem;
   align-items: start;
   margin: 15rem 0; }
-  @media screen and (max-width: 38em) {
-    .features {
+
+  @media screen and (max-width: 62em) {
+    .features{
+      grid-row-gap: 0;
       margin: 5rem 0;
       align-content: center;
-      align-items: center;
-      grid-row-gap: 0; } }
+      align-items: center;} }
 
 .feature {
   display: grid;
